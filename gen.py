@@ -12,6 +12,6 @@ def gen(total):
     return r, g, b
 
 print('[' + ','.join([
-    '[' + ','.join(map(str, gen(100))) + ']'
-    for _ in range(5)
+    '[' + ','.join(map(str, gen(10))) + ']'
+    for _ in range(10)
 ]) + ']')
